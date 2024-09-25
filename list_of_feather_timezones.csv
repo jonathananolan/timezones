@@ -1,108 +1,108 @@
-microsoft_id,microsoft_display,feather_display_string,iana_name,abbreviation
-200,Hawaiian Standard Time,(UTC-10:00) Hawaii,Pacific/Honolulu,HST
-300,Alaskan Standard Time,(UTC-09:00) Alaska,America/Anchorage,AKDT
-400,Pacific Standard Time,(UTC-08:00) Pacific Time (US and Canada),America/Los_Angeles,PDT
-410,Pacific Standard Time (Mexico),(UTC-08:00)Baja California,America/Tijuana,PDT
-500,Mountain Standard Time,(UTC-07:00) Mountain Time (US and Canada),America/Denver,MDT
-510,Mountain Standard Time (Mexico),"(UTC-07:00) Chihuahua, La Paz, Mazatlan",America/Mazatlan,MST
-520,US Mountain Standard Time,(UTC-07:00) Arizona,America/Phoenix,MST
-600,Canada Central Standard Time,(UTC-06:00) Saskatchewan,America/Regina,CST
-610,Central America Standard Time,(UTC-06:00) Central America,America/Guatemala,CST
-620,Central Standard Time,(UTC-06:00) Central Time (US and Canada),America/Chicago,CDT
-630,Central Standard Time (Mexico),"((UTC-06:00) Guadalajara, Mexico City, Monterrey",America/Mexico_City,CST
-700,Eastern Standard Time,(UTC-05:00) Eastern Time (US and Canada),America/New_York,EDT
-710,SA Pacific Standard Time,"(UTC-05:00) Bogota, Lima, Quito",America/Bogota,-05
-720,US Eastern Standard Time,(UTC-05:00) Indiana (East),America/Indianapolis,EDT
-840,Venezuela Standard Time,(UTC-04:30) Caracas,America/Caracas,-04
-800,Atlantic Standard Time,(UTC-04:00) Atlantic Time (Canada),America/Halifax,ADT
-810,Central Brazilian Standard Time,(UTC-04:00) Cuiaba,America/Cuiaba,-04
-820,Pacific SA Standard Time,(UTC-04:00) Santiago,America/Santiago,-03
-830,SA Western Standard Time,"(UTC-04:00) Georgetown, La Paz, Manaus, San Juan",America/La_Paz,-04
-850,Paraguay Standard Time,(UTC-04:00) Asuncion,America/Asuncion,-04
-900,Newfoundland Standard Time,(UTC-03:30) Newfoundland,America/St_Johns,NDT
-910,E. South America Standard Time,(UTC-03:00) Brasilia,America/Sao_Paulo,-03
-920,Greenland Standard Time,(UTC-03:00) Greenland,America/Godthab,-01
-930,Montevideo Standard Time,(UTC-03:00) Montevideo,America/Montevideo,-03
-940,SA Eastern Standard Time,"(UTC-03:00) Cayenne, Fortaleza",America/Cayenne,-03
-950,Argentina Standard Time,(UTC-03:00) Buenos Aires,America/Buenos_Aires,-03
-1100,Azores Standard Time,(UTC-01:00) Azores,Atlantic/Azores,+00
-1200,GMT Standard Time,"(UTC) Dublin, Edinburgh, Lisbon, London",Europe/London,BST
-1210,Greenwich Standard Time,"(UTC) Monrovia, Reykjavik",Atlantic/Reykjavik,GMT
-1220,Morocco Standard Time,(UTC) Casablanca,Africa/Casablanca,+01
-1300,Central Europe Standard Time,"(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague",Europe/Budapest,CEST
-1310,Central European Standard Time,"(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb",Europe/Warsaw,CEST
-1320,Romance Standard Time,"(UTC+01:00) Brussels, Copenhagen, Madrid, Paris",Europe/Paris,CEST
-1330,W. Central Africa Standard Time,(UTC+01:00) West Central Africa,Africa/Lagos,WAT
-1340,W. Europe Standard Time,"(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",Europe/Berlin,CEST
-1350,Namibia Standard Time,(UTC+01:00) Windhoek,Africa/Windhoek,CAT
-1400,E. Europe Standard Time,(UTC+02:00) Minsk,Europe/Chisinau,EEST
-1410,Egypt Standard Time,(UTC+02:00) Cairo,Africa/Cairo,EEST
-1420,FLE Standard Time,"(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius",Europe/Kiev,EEST
-1430,GTB Standard Time,"(UTC+02:00) Athens, Bucharest",Europe/Bucharest,EEST
-1440,Israel Standard Time,(UTC+02:00) Jerusalem,Asia/Jerusalem,IDT
-1450,Jordan Standard Time,(UTC+02:00) Amman,Asia/Amman,+03
-1460,Middle East Standard Time,(UTC+02:00) Beirut,Asia/Beirut,EEST
-1470,South Africa Standard Time,"(UTC+02:00) Harare, Pretoria",Africa/Johannesburg,SAST
-1480,Syria Standard Time,(UTC+02:00) Damascus,Asia/Damascus,+03
-1490,Turkey Standard Time,(UTC+02:00) Istanbul,Europe/Istanbul,+03
-1500,Arab Standard Time,"(UTC+03:00) Kuwait, Riyadh",Asia/Riyadh,+03
-1510,Arabic Standard Time,(UTC+03:00) Baghdad,Asia/Baghdad,+03
-1520,E. Africa Standard Time,(UTC+03:00) Nairobi,Africa/Nairobi,EAT
-1530,Kaliningrad Standard Time,(UTC+03:00) Kaliningrad,Europe/Kaliningrad,EET
-1550,Iran Standard Time,(UTC+03:30) Tehran,Asia/Tehran,+0330
-1540,Russian Standard Time,"(UTC+04:00) Moscow, St. Petersburg, Volgograd",Europe/Moscow,MSK
-1600,Arabian Standard Time,"(UTC+04:00) Abu Dhabi, Muscat",Asia/Dubai,+04
-1610,Azerbaijan Standard Time,(UTC+04:00) Baku,Asia/Baku,+04
-1620,Caucasus Standard Time,(UTC+04:00) Yerevan,Asia/Yerevan,+04
-1640,Georgian Standard Time,(UTC+04:00) Tbilisi,Asia/Tbilisi,+04
-1650,Mauritius Standard Time,(UTC+04:00) Port Louis,Indian/Mauritius,+04
-1630,Afghanistan Standard Time,(UTC+04:30) Kabul,Asia/Kabul,+0430
-1710,West Asia Standard Time,(UTC+05:00) Tashkent,Asia/Tashkent,+05
-1750,Pakistan Standard Time,"(UTC+05:00) Islamabad, Karachi",Asia/Karachi,PKT
-1720,India Standard Time,"(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",Asia/Calcutta,IST
-1730,Sri Lanka Standard Time,(UTC+05:30) Sri Jayawardenepura,Asia/Colombo,+0530
-1740,Nepal Standard Time,(UTC+05:45) Kathmandu,Asia/Katmandu,+0545
-1700,Ekaterinburg Standard Time,(UTC+06:00) Ekaterinburg,Asia/Yekaterinburg,+05
-1800,Central Asia Standard Time,(UTC+06:00) Astana,Asia/Bishkek,+06
-1830,Bangladesh Standard Time,(UTC+06:00) Dhaka,Asia/Dhaka,+06
-1820,Myanmar Standard Time,(UTC+06:30) Yangon (Rangoon),Asia/Rangoon,+0630
-1810,N. Central Asia Standard Time,(UTC+07:00) Novosibirsk,Asia/Novosibirsk,+07
-1910,SE Asia Standard Time,"(UTC+07:00) Bangkok, Hanoi, Jakarta",Asia/Bangkok,+07
-1900,North Asia Standard Time,(UTC+08:00) Krasnoyarsk,Asia/Krasnoyarsk,+07
-2000,China Standard Time,"(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi",Asia/Shanghai,CST
-2020,Singapore Standard Time,"(UTC+08:00) Kuala Lumpur, Singapore",Asia/Singapore,+08
-2030,Taipei Standard Time,(UTC+08:00) Taipei,Asia/Taipei,CST
-2040,W. Australia Standard Time,(UTC+08:00) Perth,Australia/Perth,AWST
-2050,Ulaanbaatar Standard Time,(UTC+08:00) Ulaanbaatar,Asia/Ulaanbaatar,+08
-2010,North Asia East Standard Time,(UTC+09:00) Irkutsk,Asia/Irkutsk,+08
-2100,Korea Standard Time,(UTC+09:00) Seoul,Asia/Seoul,KST
-2110,Tokyo Standard Time,"(UTC+09:00) Osaka, Sapporo, Tokyo",Asia/Tokyo,JST
-2130,AUS Central Standard Time,(UTC+09:30) Darwin,Australia/Darwin,ACST
-2140,Cen. Australia Standard Time,(UTC+09:30) Adelaide,Australia/Adelaide,ACST
-2120,Yakutsk Standard Time,(UTC+10:00) Yakutsk,Asia/Yakutsk,+09
-2200,AUS Eastern Standard Time,"(UTC+10:00) Canberra, Melbourne, Sydney",Australia/Sydney,AEST
-2210,E. Australia Standard Time,(UTC+10:00) Brisbane,Australia/Brisbane,AEST
-2220,Tasmania Standard Time,(UTC+10:00) Hobart,Australia/Hobart,AEST
-2240,West Pacific Standard Time,"(UTC+10:00) Guam, Port Moresby",Pacific/Port_Moresby,+10
-2230,Vladivostok Standard Time,(UTC+11:00) Vladivostok,Asia/Vladivostok,+10
-2300,Central Pacific Standard Time,"(UTC+11:00) Solomon Is., New Caledonia",Pacific/Guadalcanal,+11
-2310,Magadan Standard Time,(UTC+12:00) Magadan,Asia/Magadan,+11
-2400,Fiji Standard Time,(UTC+12:00) Fiji,Pacific/Fiji,+12
-2410,New Zealand Standard Time,"(UTC+12:00) Auckland, Wellington",Pacific/Auckland,NZST
-2500,Tonga Standard Time,(UTC+13:00) Nuku'alofa,Pacific/Tongatapu,+13
-2510,Samoa Standard Time,(UTC-11:00)Samoa,Pacific/Apia,+13
-NA,NA,America/Detroit,America/Detroit,EDT
-NA,NA,America/Havana,America/Havana,CDT
-NA,NA,America/Louisville,America/Louisville,EDT
-NA,NA,America/Montreal,America/Montreal,EDT
-NA,NA,America/Nassau,America/Nassau,EDT
-NA,NA,America/Toronto,America/Toronto,EDT
-NA,NA,America/Vancouver,America/Vancouver,PDT
-NA,NA,America/Winnipeg,America/Winnipeg,CDT
-NA,NA,Canada/Central,Canada/Central,CDT
-NA,NA,Canada/Eastern,Canada/Eastern,EDT
-NA,NA,Canada/Pacific,Canada/Pacific,PDT
-NA,NA,US/Central,US/Central,CDT
-NA,NA,US/Eastern,US/Eastern,EDT
-NA,NA,US/Michigan,US/Michigan,EDT
-NA,NA,US/Pacific,US/Pacific,PDT
+microsoft_id,microsoft_display,feather_display_string,iana_name,abbreviation,concated
+200,Hawaiian Standard Time,(UTC-10:00) Hawaii,Pacific/Honolulu,HST,"{ iana_timezone: ""Pacific/Honolulu"", display_name: "",(UTC-10:00) Hawaii"", abbreviation: ""HST"", },"
+300,Alaskan Standard Time,(UTC-09:00) Alaska,America/Anchorage,AKDT,"{ iana_timezone: ""America/Anchorage"", display_name: "",(UTC-09:00) Alaska"", abbreviation: ""AKDT"", },"
+400,Pacific Standard Time,(UTC-08:00) Pacific Time (US and Canada),America/Los_Angeles,PDT,"{ iana_timezone: ""America/Los_Angeles"", display_name: "",(UTC-08:00) Pacific Time (US and Canada)"", abbreviation: ""PDT"", },"
+410,Pacific Standard Time (Mexico),(UTC-08:00)Baja California,America/Tijuana,PDT,"{ iana_timezone: ""America/Tijuana"", display_name: "",(UTC-08:00)Baja California"", abbreviation: ""PDT"", },"
+500,Mountain Standard Time,(UTC-07:00) Mountain Time (US and Canada),America/Denver,MDT,"{ iana_timezone: ""America/Denver"", display_name: "",(UTC-07:00) Mountain Time (US and Canada)"", abbreviation: ""MDT"", },"
+510,Mountain Standard Time (Mexico),"(UTC-07:00) Chihuahua, La Paz, Mazatlan",America/Mazatlan,MST,"{ iana_timezone: ""America/Mazatlan"", display_name: "",(UTC-07:00) Chihuahua, La Paz, Mazatlan"", abbreviation: ""MST"", },"
+520,US Mountain Standard Time,(UTC-07:00) Arizona,America/Phoenix,MST,"{ iana_timezone: ""America/Phoenix"", display_name: "",(UTC-07:00) Arizona"", abbreviation: ""MST"", },"
+600,Canada Central Standard Time,(UTC-06:00) Saskatchewan,America/Regina,CST,"{ iana_timezone: ""America/Regina"", display_name: "",(UTC-06:00) Saskatchewan"", abbreviation: ""CST"", },"
+610,Central America Standard Time,(UTC-06:00) Central America,America/Guatemala,CST,"{ iana_timezone: ""America/Guatemala"", display_name: "",(UTC-06:00) Central America"", abbreviation: ""CST"", },"
+620,Central Standard Time,(UTC-06:00) Central Time (US and Canada),America/Chicago,CDT,"{ iana_timezone: ""America/Chicago"", display_name: "",(UTC-06:00) Central Time (US and Canada)"", abbreviation: ""CDT"", },"
+630,Central Standard Time (Mexico),"((UTC-06:00) Guadalajara, Mexico City, Monterrey",America/Mexico_City,CST,"{ iana_timezone: ""America/Mexico_City"", display_name: "",((UTC-06:00) Guadalajara, Mexico City, Monterrey"", abbreviation: ""CST"", },"
+700,Eastern Standard Time,(UTC-05:00) Eastern Time (US and Canada),America/New_York,EDT,"{ iana_timezone: ""America/New_York"", display_name: "",(UTC-05:00) Eastern Time (US and Canada)"", abbreviation: ""EDT"", },"
+710,SA Pacific Standard Time,"(UTC-05:00) Bogota, Lima, Quito",America/Bogota,-05,"{ iana_timezone: ""America/Bogota"", display_name: "",(UTC-05:00) Bogota, Lima, Quito"", abbreviation: ""-05"", },"
+720,US Eastern Standard Time,(UTC-05:00) Indiana (East),America/Indianapolis,EDT,"{ iana_timezone: ""America/Indianapolis"", display_name: "",(UTC-05:00) Indiana (East)"", abbreviation: ""EDT"", },"
+840,Venezuela Standard Time,(UTC-04:30) Caracas,America/Caracas,-04,"{ iana_timezone: ""America/Caracas"", display_name: "",(UTC-04:30) Caracas"", abbreviation: ""-04"", },"
+800,Atlantic Standard Time,(UTC-04:00) Atlantic Time (Canada),America/Halifax,ADT,"{ iana_timezone: ""America/Halifax"", display_name: "",(UTC-04:00) Atlantic Time (Canada)"", abbreviation: ""ADT"", },"
+810,Central Brazilian Standard Time,(UTC-04:00) Cuiaba,America/Cuiaba,-04,"{ iana_timezone: ""America/Cuiaba"", display_name: "",(UTC-04:00) Cuiaba"", abbreviation: ""-04"", },"
+820,Pacific SA Standard Time,(UTC-04:00) Santiago,America/Santiago,-03,"{ iana_timezone: ""America/Santiago"", display_name: "",(UTC-04:00) Santiago"", abbreviation: ""-03"", },"
+830,SA Western Standard Time,"(UTC-04:00) Georgetown, La Paz, Manaus, San Juan",America/La_Paz,-04,"{ iana_timezone: ""America/La_Paz"", display_name: "",(UTC-04:00) Georgetown, La Paz, Manaus, San Juan"", abbreviation: ""-04"", },"
+850,Paraguay Standard Time,(UTC-04:00) Asuncion,America/Asuncion,-04,"{ iana_timezone: ""America/Asuncion"", display_name: "",(UTC-04:00) Asuncion"", abbreviation: ""-04"", },"
+900,Newfoundland Standard Time,(UTC-03:30) Newfoundland,America/St_Johns,NDT,"{ iana_timezone: ""America/St_Johns"", display_name: "",(UTC-03:30) Newfoundland"", abbreviation: ""NDT"", },"
+910,E. South America Standard Time,(UTC-03:00) Brasilia,America/Sao_Paulo,-03,"{ iana_timezone: ""America/Sao_Paulo"", display_name: "",(UTC-03:00) Brasilia"", abbreviation: ""-03"", },"
+920,Greenland Standard Time,(UTC-03:00) Greenland,America/Godthab,-01,"{ iana_timezone: ""America/Godthab"", display_name: "",(UTC-03:00) Greenland"", abbreviation: ""-01"", },"
+930,Montevideo Standard Time,(UTC-03:00) Montevideo,America/Montevideo,-03,"{ iana_timezone: ""America/Montevideo"", display_name: "",(UTC-03:00) Montevideo"", abbreviation: ""-03"", },"
+940,SA Eastern Standard Time,"(UTC-03:00) Cayenne, Fortaleza",America/Cayenne,-03,"{ iana_timezone: ""America/Cayenne"", display_name: "",(UTC-03:00) Cayenne, Fortaleza"", abbreviation: ""-03"", },"
+950,Argentina Standard Time,(UTC-03:00) Buenos Aires,America/Buenos_Aires,-03,"{ iana_timezone: ""America/Buenos_Aires"", display_name: "",(UTC-03:00) Buenos Aires"", abbreviation: ""-03"", },"
+1100,Azores Standard Time,(UTC-01:00) Azores,Atlantic/Azores,+00,"{ iana_timezone: ""Atlantic/Azores"", display_name: "",(UTC-01:00) Azores"", abbreviation: ""+00"", },"
+1200,GMT Standard Time,"(UTC) Dublin, Edinburgh, Lisbon, London",Europe/London,BST,"{ iana_timezone: ""Europe/London"", display_name: "",(UTC) Dublin, Edinburgh, Lisbon, London"", abbreviation: ""BST"", },"
+1210,Greenwich Standard Time,"(UTC) Monrovia, Reykjavik",Atlantic/Reykjavik,GMT,"{ iana_timezone: ""Atlantic/Reykjavik"", display_name: "",(UTC) Monrovia, Reykjavik"", abbreviation: ""GMT"", },"
+1220,Morocco Standard Time,(UTC) Casablanca,Africa/Casablanca,+01,"{ iana_timezone: ""Africa/Casablanca"", display_name: "",(UTC) Casablanca"", abbreviation: ""+01"", },"
+1300,Central Europe Standard Time,"(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague",Europe/Budapest,CEST,"{ iana_timezone: ""Europe/Budapest"", display_name: "",(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague"", abbreviation: ""CEST"", },"
+1310,Central European Standard Time,"(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb",Europe/Warsaw,CEST,"{ iana_timezone: ""Europe/Warsaw"", display_name: "",(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb"", abbreviation: ""CEST"", },"
+1320,Romance Standard Time,"(UTC+01:00) Brussels, Copenhagen, Madrid, Paris",Europe/Paris,CEST,"{ iana_timezone: ""Europe/Paris"", display_name: "",(UTC+01:00) Brussels, Copenhagen, Madrid, Paris"", abbreviation: ""CEST"", },"
+1330,W. Central Africa Standard Time,(UTC+01:00) West Central Africa,Africa/Lagos,WAT,"{ iana_timezone: ""Africa/Lagos"", display_name: "",(UTC+01:00) West Central Africa"", abbreviation: ""WAT"", },"
+1340,W. Europe Standard Time,"(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",Europe/Berlin,CEST,"{ iana_timezone: ""Europe/Berlin"", display_name: "",(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"", abbreviation: ""CEST"", },"
+1350,Namibia Standard Time,(UTC+01:00) Windhoek,Africa/Windhoek,CAT,"{ iana_timezone: ""Africa/Windhoek"", display_name: "",(UTC+01:00) Windhoek"", abbreviation: ""CAT"", },"
+1400,E. Europe Standard Time,(UTC+02:00) Minsk,Europe/Chisinau,EEST,"{ iana_timezone: ""Europe/Chisinau"", display_name: "",(UTC+02:00) Minsk"", abbreviation: ""EEST"", },"
+1410,Egypt Standard Time,(UTC+02:00) Cairo,Africa/Cairo,EEST,"{ iana_timezone: ""Africa/Cairo"", display_name: "",(UTC+02:00) Cairo"", abbreviation: ""EEST"", },"
+1420,FLE Standard Time,"(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius",Europe/Kiev,EEST,"{ iana_timezone: ""Europe/Kiev"", display_name: "",(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"", abbreviation: ""EEST"", },"
+1430,GTB Standard Time,"(UTC+02:00) Athens, Bucharest",Europe/Bucharest,EEST,"{ iana_timezone: ""Europe/Bucharest"", display_name: "",(UTC+02:00) Athens, Bucharest"", abbreviation: ""EEST"", },"
+1440,Israel Standard Time,(UTC+02:00) Jerusalem,Asia/Jerusalem,IDT,"{ iana_timezone: ""Asia/Jerusalem"", display_name: "",(UTC+02:00) Jerusalem"", abbreviation: ""IDT"", },"
+1450,Jordan Standard Time,(UTC+02:00) Amman,Asia/Amman,+03,"{ iana_timezone: ""Asia/Amman"", display_name: "",(UTC+02:00) Amman"", abbreviation: ""+03"", },"
+1460,Middle East Standard Time,(UTC+02:00) Beirut,Asia/Beirut,EEST,"{ iana_timezone: ""Asia/Beirut"", display_name: "",(UTC+02:00) Beirut"", abbreviation: ""EEST"", },"
+1470,South Africa Standard Time,"(UTC+02:00) Harare, Pretoria",Africa/Johannesburg,SAST,"{ iana_timezone: ""Africa/Johannesburg"", display_name: "",(UTC+02:00) Harare, Pretoria"", abbreviation: ""SAST"", },"
+1480,Syria Standard Time,(UTC+02:00) Damascus,Asia/Damascus,+03,"{ iana_timezone: ""Asia/Damascus"", display_name: "",(UTC+02:00) Damascus"", abbreviation: ""+03"", },"
+1490,Turkey Standard Time,(UTC+02:00) Istanbul,Europe/Istanbul,+03,"{ iana_timezone: ""Europe/Istanbul"", display_name: "",(UTC+02:00) Istanbul"", abbreviation: ""+03"", },"
+1500,Arab Standard Time,"(UTC+03:00) Kuwait, Riyadh",Asia/Riyadh,+03,"{ iana_timezone: ""Asia/Riyadh"", display_name: "",(UTC+03:00) Kuwait, Riyadh"", abbreviation: ""+03"", },"
+1510,Arabic Standard Time,(UTC+03:00) Baghdad,Asia/Baghdad,+03,"{ iana_timezone: ""Asia/Baghdad"", display_name: "",(UTC+03:00) Baghdad"", abbreviation: ""+03"", },"
+1520,E. Africa Standard Time,(UTC+03:00) Nairobi,Africa/Nairobi,EAT,"{ iana_timezone: ""Africa/Nairobi"", display_name: "",(UTC+03:00) Nairobi"", abbreviation: ""EAT"", },"
+1530,Kaliningrad Standard Time,(UTC+03:00) Kaliningrad,Europe/Kaliningrad,EET,"{ iana_timezone: ""Europe/Kaliningrad"", display_name: "",(UTC+03:00) Kaliningrad"", abbreviation: ""EET"", },"
+1550,Iran Standard Time,(UTC+03:30) Tehran,Asia/Tehran,+0330,"{ iana_timezone: ""Asia/Tehran"", display_name: "",(UTC+03:30) Tehran"", abbreviation: ""+0330"", },"
+1540,Russian Standard Time,"(UTC+04:00) Moscow, St. Petersburg, Volgograd",Europe/Moscow,MSK,"{ iana_timezone: ""Europe/Moscow"", display_name: "",(UTC+04:00) Moscow, St. Petersburg, Volgograd"", abbreviation: ""MSK"", },"
+1600,Arabian Standard Time,"(UTC+04:00) Abu Dhabi, Muscat",Asia/Dubai,+04,"{ iana_timezone: ""Asia/Dubai"", display_name: "",(UTC+04:00) Abu Dhabi, Muscat"", abbreviation: ""+04"", },"
+1610,Azerbaijan Standard Time,(UTC+04:00) Baku,Asia/Baku,+04,"{ iana_timezone: ""Asia/Baku"", display_name: "",(UTC+04:00) Baku"", abbreviation: ""+04"", },"
+1620,Caucasus Standard Time,(UTC+04:00) Yerevan,Asia/Yerevan,+04,"{ iana_timezone: ""Asia/Yerevan"", display_name: "",(UTC+04:00) Yerevan"", abbreviation: ""+04"", },"
+1640,Georgian Standard Time,(UTC+04:00) Tbilisi,Asia/Tbilisi,+04,"{ iana_timezone: ""Asia/Tbilisi"", display_name: "",(UTC+04:00) Tbilisi"", abbreviation: ""+04"", },"
+1650,Mauritius Standard Time,(UTC+04:00) Port Louis,Indian/Mauritius,+04,"{ iana_timezone: ""Indian/Mauritius"", display_name: "",(UTC+04:00) Port Louis"", abbreviation: ""+04"", },"
+1630,Afghanistan Standard Time,(UTC+04:30) Kabul,Asia/Kabul,+0430,"{ iana_timezone: ""Asia/Kabul"", display_name: "",(UTC+04:30) Kabul"", abbreviation: ""+0430"", },"
+1710,West Asia Standard Time,(UTC+05:00) Tashkent,Asia/Tashkent,+05,"{ iana_timezone: ""Asia/Tashkent"", display_name: "",(UTC+05:00) Tashkent"", abbreviation: ""+05"", },"
+1750,Pakistan Standard Time,"(UTC+05:00) Islamabad, Karachi",Asia/Karachi,PKT,"{ iana_timezone: ""Asia/Karachi"", display_name: "",(UTC+05:00) Islamabad, Karachi"", abbreviation: ""PKT"", },"
+1720,India Standard Time,"(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",Asia/Calcutta,IST,"{ iana_timezone: ""Asia/Calcutta"", display_name: "",(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi"", abbreviation: ""IST"", },"
+1730,Sri Lanka Standard Time,(UTC+05:30) Sri Jayawardenepura,Asia/Colombo,+0530,"{ iana_timezone: ""Asia/Colombo"", display_name: "",(UTC+05:30) Sri Jayawardenepura"", abbreviation: ""+0530"", },"
+1740,Nepal Standard Time,(UTC+05:45) Kathmandu,Asia/Katmandu,+0545,"{ iana_timezone: ""Asia/Katmandu"", display_name: "",(UTC+05:45) Kathmandu"", abbreviation: ""+0545"", },"
+1700,Ekaterinburg Standard Time,(UTC+06:00) Ekaterinburg,Asia/Yekaterinburg,+05,"{ iana_timezone: ""Asia/Yekaterinburg"", display_name: "",(UTC+06:00) Ekaterinburg"", abbreviation: ""+05"", },"
+1800,Central Asia Standard Time,(UTC+06:00) Astana,Asia/Bishkek,+06,"{ iana_timezone: ""Asia/Bishkek"", display_name: "",(UTC+06:00) Astana"", abbreviation: ""+06"", },"
+1830,Bangladesh Standard Time,(UTC+06:00) Dhaka,Asia/Dhaka,+06,"{ iana_timezone: ""Asia/Dhaka"", display_name: "",(UTC+06:00) Dhaka"", abbreviation: ""+06"", },"
+1820,Myanmar Standard Time,(UTC+06:30) Yangon (Rangoon),Asia/Rangoon,+0630,"{ iana_timezone: ""Asia/Rangoon"", display_name: "",(UTC+06:30) Yangon (Rangoon)"", abbreviation: ""+0630"", },"
+1810,N. Central Asia Standard Time,(UTC+07:00) Novosibirsk,Asia/Novosibirsk,+07,"{ iana_timezone: ""Asia/Novosibirsk"", display_name: "",(UTC+07:00) Novosibirsk"", abbreviation: ""+07"", },"
+1910,SE Asia Standard Time,"(UTC+07:00) Bangkok, Hanoi, Jakarta",Asia/Bangkok,+07,"{ iana_timezone: ""Asia/Bangkok"", display_name: "",(UTC+07:00) Bangkok, Hanoi, Jakarta"", abbreviation: ""+07"", },"
+1900,North Asia Standard Time,(UTC+08:00) Krasnoyarsk,Asia/Krasnoyarsk,+07,"{ iana_timezone: ""Asia/Krasnoyarsk"", display_name: "",(UTC+08:00) Krasnoyarsk"", abbreviation: ""+07"", },"
+2000,China Standard Time,"(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi",Asia/Shanghai,CST,"{ iana_timezone: ""Asia/Shanghai"", display_name: "",(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi"", abbreviation: ""CST"", },"
+2020,Singapore Standard Time,"(UTC+08:00) Kuala Lumpur, Singapore",Asia/Singapore,+08,"{ iana_timezone: ""Asia/Singapore"", display_name: "",(UTC+08:00) Kuala Lumpur, Singapore"", abbreviation: ""+08"", },"
+2030,Taipei Standard Time,(UTC+08:00) Taipei,Asia/Taipei,CST,"{ iana_timezone: ""Asia/Taipei"", display_name: "",(UTC+08:00) Taipei"", abbreviation: ""CST"", },"
+2040,W. Australia Standard Time,(UTC+08:00) Perth,Australia/Perth,AWST,"{ iana_timezone: ""Australia/Perth"", display_name: "",(UTC+08:00) Perth"", abbreviation: ""AWST"", },"
+2050,Ulaanbaatar Standard Time,(UTC+08:00) Ulaanbaatar,Asia/Ulaanbaatar,+08,"{ iana_timezone: ""Asia/Ulaanbaatar"", display_name: "",(UTC+08:00) Ulaanbaatar"", abbreviation: ""+08"", },"
+2010,North Asia East Standard Time,(UTC+09:00) Irkutsk,Asia/Irkutsk,+08,"{ iana_timezone: ""Asia/Irkutsk"", display_name: "",(UTC+09:00) Irkutsk"", abbreviation: ""+08"", },"
+2100,Korea Standard Time,(UTC+09:00) Seoul,Asia/Seoul,KST,"{ iana_timezone: ""Asia/Seoul"", display_name: "",(UTC+09:00) Seoul"", abbreviation: ""KST"", },"
+2110,Tokyo Standard Time,"(UTC+09:00) Osaka, Sapporo, Tokyo",Asia/Tokyo,JST,"{ iana_timezone: ""Asia/Tokyo"", display_name: "",(UTC+09:00) Osaka, Sapporo, Tokyo"", abbreviation: ""JST"", },"
+2130,AUS Central Standard Time,(UTC+09:30) Darwin,Australia/Darwin,ACST,"{ iana_timezone: ""Australia/Darwin"", display_name: "",(UTC+09:30) Darwin"", abbreviation: ""ACST"", },"
+2140,Cen. Australia Standard Time,(UTC+09:30) Adelaide,Australia/Adelaide,ACST,"{ iana_timezone: ""Australia/Adelaide"", display_name: "",(UTC+09:30) Adelaide"", abbreviation: ""ACST"", },"
+2120,Yakutsk Standard Time,(UTC+10:00) Yakutsk,Asia/Yakutsk,+09,"{ iana_timezone: ""Asia/Yakutsk"", display_name: "",(UTC+10:00) Yakutsk"", abbreviation: ""+09"", },"
+2200,AUS Eastern Standard Time,"(UTC+10:00) Canberra, Melbourne, Sydney",Australia/Sydney,AEST,"{ iana_timezone: ""Australia/Sydney"", display_name: "",(UTC+10:00) Canberra, Melbourne, Sydney"", abbreviation: ""AEST"", },"
+2210,E. Australia Standard Time,(UTC+10:00) Brisbane,Australia/Brisbane,AEST,"{ iana_timezone: ""Australia/Brisbane"", display_name: "",(UTC+10:00) Brisbane"", abbreviation: ""AEST"", },"
+2220,Tasmania Standard Time,(UTC+10:00) Hobart,Australia/Hobart,AEST,"{ iana_timezone: ""Australia/Hobart"", display_name: "",(UTC+10:00) Hobart"", abbreviation: ""AEST"", },"
+2240,West Pacific Standard Time,"(UTC+10:00) Guam, Port Moresby",Pacific/Port_Moresby,+10,"{ iana_timezone: ""Pacific/Port_Moresby"", display_name: "",(UTC+10:00) Guam, Port Moresby"", abbreviation: ""+10"", },"
+2230,Vladivostok Standard Time,(UTC+11:00) Vladivostok,Asia/Vladivostok,+10,"{ iana_timezone: ""Asia/Vladivostok"", display_name: "",(UTC+11:00) Vladivostok"", abbreviation: ""+10"", },"
+2300,Central Pacific Standard Time,"(UTC+11:00) Solomon Is., New Caledonia",Pacific/Guadalcanal,+11,"{ iana_timezone: ""Pacific/Guadalcanal"", display_name: "",(UTC+11:00) Solomon Is., New Caledonia"", abbreviation: ""+11"", },"
+2310,Magadan Standard Time,(UTC+12:00) Magadan,Asia/Magadan,+11,"{ iana_timezone: ""Asia/Magadan"", display_name: "",(UTC+12:00) Magadan"", abbreviation: ""+11"", },"
+2400,Fiji Standard Time,(UTC+12:00) Fiji,Pacific/Fiji,+12,"{ iana_timezone: ""Pacific/Fiji"", display_name: "",(UTC+12:00) Fiji"", abbreviation: ""+12"", },"
+2410,New Zealand Standard Time,"(UTC+12:00) Auckland, Wellington",Pacific/Auckland,NZST,"{ iana_timezone: ""Pacific/Auckland"", display_name: "",(UTC+12:00) Auckland, Wellington"", abbreviation: ""NZST"", },"
+2500,Tonga Standard Time,(UTC+13:00) Nuku'alofa,Pacific/Tongatapu,+13,"{ iana_timezone: ""Pacific/Tongatapu"", display_name: "",(UTC+13:00) Nuku'alofa"", abbreviation: ""+13"", },"
+2510,Samoa Standard Time,(UTC-11:00)Samoa,Pacific/Apia,+13,"{ iana_timezone: ""Pacific/Apia"", display_name: "",(UTC-11:00)Samoa"", abbreviation: ""+13"", },"
+NA,NA,America/Detroit,America/Detroit,EDT,"{ iana_timezone: ""America/Detroit"", display_name: "",America/Detroit"", abbreviation: ""EDT"", },"
+NA,NA,America/Havana,America/Havana,CDT,"{ iana_timezone: ""America/Havana"", display_name: "",America/Havana"", abbreviation: ""CDT"", },"
+NA,NA,America/Louisville,America/Louisville,EDT,"{ iana_timezone: ""America/Louisville"", display_name: "",America/Louisville"", abbreviation: ""EDT"", },"
+NA,NA,America/Montreal,America/Montreal,EDT,"{ iana_timezone: ""America/Montreal"", display_name: "",America/Montreal"", abbreviation: ""EDT"", },"
+NA,NA,America/Nassau,America/Nassau,EDT,"{ iana_timezone: ""America/Nassau"", display_name: "",America/Nassau"", abbreviation: ""EDT"", },"
+NA,NA,America/Toronto,America/Toronto,EDT,"{ iana_timezone: ""America/Toronto"", display_name: "",America/Toronto"", abbreviation: ""EDT"", },"
+NA,NA,America/Vancouver,America/Vancouver,PDT,"{ iana_timezone: ""America/Vancouver"", display_name: "",America/Vancouver"", abbreviation: ""PDT"", },"
+NA,NA,America/Winnipeg,America/Winnipeg,CDT,"{ iana_timezone: ""America/Winnipeg"", display_name: "",America/Winnipeg"", abbreviation: ""CDT"", },"
+NA,NA,Canada/Central,Canada/Central,CDT,"{ iana_timezone: ""Canada/Central"", display_name: "",Canada/Central"", abbreviation: ""CDT"", },"
+NA,NA,Canada/Eastern,Canada/Eastern,EDT,"{ iana_timezone: ""Canada/Eastern"", display_name: "",Canada/Eastern"", abbreviation: ""EDT"", },"
+NA,NA,Canada/Pacific,Canada/Pacific,PDT,"{ iana_timezone: ""Canada/Pacific"", display_name: "",Canada/Pacific"", abbreviation: ""PDT"", },"
+NA,NA,US/Central,US/Central,CDT,"{ iana_timezone: ""US/Central"", display_name: "",US/Central"", abbreviation: ""CDT"", },"
+NA,NA,US/Eastern,US/Eastern,EDT,"{ iana_timezone: ""US/Eastern"", display_name: "",US/Eastern"", abbreviation: ""EDT"", },"
+NA,NA,US/Michigan,US/Michigan,EDT,"{ iana_timezone: ""US/Michigan"", display_name: "",US/Michigan"", abbreviation: ""EDT"", },"
+NA,NA,US/Pacific,US/Pacific,PDT,"{ iana_timezone: ""US/Pacific"", display_name: "",US/Pacific"", abbreviation: ""PDT"", },"

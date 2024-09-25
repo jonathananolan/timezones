@@ -47,7 +47,7 @@ north_american_time_zones <- all_iana_names %>%
   filter(iana_name %in% important_time_zones) %>% 
   mutate(feather_display_string = iana_name)
 
-
+#all_iana_names %>% filter(!iana_name %in% important_time_zones) %>% view()
 
 
 # Define the URL to the raw XML file
@@ -82,6 +82,6 @@ short_list <- display_short_list %>%
   filter(!str_detect(iana_name,"Etc/")) %>% 
   mutate(abbreviation = sapply(iana_name, function(tz) format(with_tz(Sys.time(), tzone = tz), "%Z"))) %>% 
   bind_rows(north_american_time_zones) %>% 
-  distinct(iana_name, .keep_all = T)
-
-short_list %>% write_csv("list_of_feather_timezones.csv")
+  distinct(iana_name, .keep_all = T) %>% 
+  mutate(concated = paste0('{ iana_timezone: "',iana_name,'", display_name: ",',feather_display_string,'", abbreviation: "',abbreviation,'", },')) %>%
+  short_list %>% write_csv("list_of_feather_timezones.csv")
