@@ -91,3 +91,18 @@ microsoft_id,microsoft_display,feather_display_string,iana_name,abbreviation
 2410,New Zealand Standard Time,"(UTC+12:00) Auckland, Wellington",Pacific/Auckland,NZST
 2500,Tonga Standard Time,(UTC+13:00) Nuku'alofa,Pacific/Tongatapu,+13
 2510,Samoa Standard Time,(UTC-11:00)Samoa,Pacific/Apia,+13
+NA,NA,America/Detroit,America/Detroit,EDT
+NA,NA,America/Havana,America/Havana,CDT
+NA,NA,America/Louisville,America/Louisville,EDT
+NA,NA,America/Montreal,America/Montreal,EDT
+NA,NA,America/Nassau,America/Nassau,EDT
+NA,NA,America/Toronto,America/Toronto,EDT
+NA,NA,America/Vancouver,America/Vancouver,PDT
+NA,NA,America/Winnipeg,America/Winnipeg,CDT
+NA,NA,Canada/Central,Canada/Central,CDT
+NA,NA,Canada/Eastern,Canada/Eastern,EDT
+NA,NA,Canada/Pacific,Canada/Pacific,PDT
+NA,NA,US/Central,US/Central,CDT
+NA,NA,US/Eastern,US/Eastern,EDT
+NA,NA,US/Michigan,US/Michigan,EDT
+NA,NA,US/Pacific,US/Pacific,PDT

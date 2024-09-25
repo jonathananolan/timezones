@@ -5,6 +5,51 @@ library(tidyverse)
 # Time zones suck. But we want to be a global website. 
 # The IANA list is far too long so lets use a shorter list Microsoft used a long time ago. 
 
+
+# Get all the IANA time zones
+timezones <- OlsonNames()
+
+# Create a function to extract the abbreviation for each timezone
+get_abbreviation <- function(tz) {
+  format(Sys.time(), tz = tz, format = "%Z")
+}
+
+# Create a data frame with time zones and their abbreviations
+all_iana_names <- data.frame(
+  iana_name = timezones,
+  abbreviation = sapply(timezones, get_abbreviation),
+  stringsAsFactors = FALSE,
+  row.names = NULL
+)
+
+important_time_zones <- c("America/Montreal",
+                          "America/Nassau",
+                          "America/Toronto",
+                          "Canada/Eastern",
+                          "US/Eastern",
+                          "US/Michigan",
+                          "America/Louisville",
+                          "America/Detroit",
+                          "America/Indianapolis",
+                          "America/Chicago",
+                          "America/Winnipeg",
+                          "US/Central",
+                          "Canada/Central",
+                          "America/Havana",
+                          "Canada/Pacific",
+                          "America/Los_Angeles",
+                          "America/Vancouver",
+                          "US/Pacific",
+                          "America/Los_Angeles",
+                          "America/New_York")
+
+north_american_time_zones <- all_iana_names %>% 
+  filter(iana_name %in% important_time_zones) %>% 
+  mutate(feather_display_string = iana_name)
+
+
+
+
 # Define the URL to the raw XML file
 url <- "https://raw.githubusercontent.com/unicode-org/cldr/main/common/supplemental/windowsZones.xml"
 
@@ -27,6 +72,7 @@ windows_tz <- data.frame(
 #https://learn.microsoft.com/en-us/previous-versions/windows/embedded/gg154758(v=winembedded.80)?redirectedfrom=MSDN
 display_short_list <- read_csv('data/top_timezones.csv')
 
+
 short_list <- display_short_list %>% 
   inner_join(windows_tz, by = c("Time zone name" = "windows")) %>% 
   rename(microsoft_id = ID,
@@ -34,6 +80,8 @@ short_list <- display_short_list %>%
          feather_display_string = `Display string`,
          iana_name = iana) %>% 
   filter(!str_detect(iana_name,"Etc/")) %>% 
-  mutate(abbreviation = sapply(iana_name, function(tz) format(with_tz(Sys.time(), tzone = tz), "%Z")))
+  mutate(abbreviation = sapply(iana_name, function(tz) format(with_tz(Sys.time(), tzone = tz), "%Z"))) %>% 
+  bind_rows(north_american_time_zones) %>% 
+  distinct(iana_name, .keep_all = T)
 
 short_list %>% write_csv("list_of_feather_timezones.csv")
