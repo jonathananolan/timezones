@@ -29,23 +29,57 @@ create_windows_to_iana_mapping <- function() {
   
   
   
-  #List taken from 2013 Microsoft file - simpler list than IANA. 
-  #https://learn.microsoft.com/en-us/previous-versions/windows/embedded/gg154758(v=winembedded.80)?redirectedfrom=MSDN
-  microsoft_labels <- read_csv('data/top_timezones.csv') %>% 
-    rename(windows_id = ID,
-           windows_name = `Time zone name`,
-           windows_display = `Display string`)
+  #List taken from Microsoft windows 11 and 2013
+ #https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11  
+ #  #https://learn.microsoft.com/en-us/previous-versions/windows/embedded/gg154758(v=winembedded.80)?redirectedfrom=MSDN
+
+  microsoft_labels_windows11 <- read_csv('data/microsoft_time_zones_windows_11.csv') %>% 
+    mutate(windows_display = paste(UTC,`Timezone description`)) %>% 
+    select(windows_name = Timezone,
+           windows_display) %>% 
+    distinct()
   
-  #These important time zones have been renamed recently... 
+  
+  microsoft_labels_2013 <- read_csv('data/microsoft_timezones_2013.csv') %>% 
+    select(windows_name = `Time zone name`,
+           windows_display = `Display string`) %>% 
+    distinct()
+  
+  microsoft_labels_azure <- read_csv('data/microsoft_timezones_azure.csv') %>% 
+    select(windows_name = `Time zone ID`,
+           windows_display = `Time zone display name` ) %>% 
+    distinct()
+  
+  
+  microsoft_labels <- microsoft_labels_windows11 %>% 
+    bind_rows(microsoft_labels_2013) %>% 
+    bind_rows(microsoft_labels_azure) %>% 
+    distinct(windows_name,.keep_all = T)
+  
+  
+  
+  #These time zones have been renamed recently or removed from the mapping file... 
   manual_zones <- tribble(~iana_name,~windows_name,~windows_display,
-                          "Asia/Kathmandu","Nepal Standard Time","(UTC+05:45) Kathmandu",
                           "Asia/Kolkata","India Standard Time","(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",
                           "Asia/Yangon","Myanmar Standard Time","(UTC+06:30) Yangon (Rangoon)",
-                          "Atlantic/Cape_Verde","Cabo Verde Standard Time","(UTC-01:00) Cabo Verde Is.",
                           "Asia/Sakhalin","Vladivostok Standard Time","(UTC+11:00) Vladivostok",
-                          "Asia/Gaza","Jerusalem Standard Time","(UTC+02:00) Jerusalem Standard Time") 
+                          "Asia/Gaza","Jerusalem Standard Time","(UTC+02:00) Jerusalem Standard Time",
+                          "America/Whitehorse","Yukon Standard Time","(UTC-07:00) Yukon",
+                          "America/Dawson","Yukon Standard Time","(UTC-07:00) Yukon",
+                          "Africa/Juba","South Sudan Standard Time","(UTC+2:00) Juba",
+                          "Asia/Qyzylorda","Qyzylorda Standard Time","(UTC+05:00) Qyzylorda",
+                          "Asia/Kathmandu","Nepal Standard Time","(UTC+05:45) Kathmandu",
+                          "America/Nuuk","Greenland Standard Time","(UTC-03:00) Greenland") 
+  
+  
+
+  
+  
   microsoft_zones <- microsoft_labels%>% 
-    inner_join(microsoft_iana_lookup, by = "windows_name") %>% 
-    bind_rows(manual_zones)
+    distinct() %>% 
+    right_join(microsoft_iana_lookup, by = "windows_name") %>% 
+    bind_rows(manual_zones) %>% 
+    arrange(windows_display) %>% 
+    distinct(iana_name, .keep_all = T)
   
   return(microsoft_zones)}

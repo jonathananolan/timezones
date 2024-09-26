@@ -27,7 +27,7 @@
   }
   
   create_custom_label <- function(df){
-    output <-time_zones_full %>% 
+    output <-df %>% 
       mutate(utc_sdt = paste0(substr(utc_offset,1,3),":",substr(utc_offset,4,5)),
              custom_label = paste0(utc_sdt," ",iana_name)) %>% 
       mutate(standard_abbr = purrr::map2_chr(date, iana_name, ~format(as.POSIXct(.x, tz = .y), format = "%Z")),
