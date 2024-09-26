@@ -1,13 +1,9 @@
-There are over 500 IANA timezones, but not many are meaningfuly distinct. 
+There are over 500 IANA timezones, but not many are meaningfuly distinct for current and future dates. [Time-zone boundary builder](https://github.com/evansiroky/timezone-boundary-builder) maintains an up to date map of the ~70 time zones that are actually mapped to a current geographical area. 
 
-This repo creates a concept of "iana groups" which are groups of iana time codes that are extremely similar (denoted by having the same UTC offset on "2023-01-01", "2023-03-31", "2023-07-01", and "2023-11-25" 
+But most computers in the world use (IANA names)[https://github.com/eggert/tz], and for many computers the IANA name is one of more than 600 locations that represent historical differences in time zones across different regions. 
 
-For each iana code, the iana_group is the most populous iana code time zone with the exact times.  
+When creating user interfaces that deal only with the future, it would be handy to be able to map the full ~600 list to the much shorter 70 list so that it's easier for users to pick their time zone in a drop-down. 
 
-Some particualrly annoying iana time zones are excluded (e.g. Antarctica). 
+The CSV file in output maps all IANA names to 62 'current' time zones, as well as the 48 'closest significant current' time zone where there are more than 200,000 people living. 
 
-I also provide a list of 'windows labels' which are handy labels popular on older versions of windows for each IANA code, but also each IANA group. Windows labels are useful because they are ordered by UTC offset, and frequent travellers have an innate senese of where their time zone is on that list. 
-
-The relevant output is in the output folder under IANA_windows_lookup.csv. 
-
-If you are creating a date/time picker, you might decide to support every single user's system IANA code for the 'default' time zone, but only allow users to change to one of the unique iana_group values in a drop down selector menu. You may also then choose to display windows_group_display as the order and/or display for each iana group. 
+It also provide a list of 'windows labels' which are handy labels popular on older versions of windows for each IANA name. Windows labels are useful because they are ordered by UTC offset, and frequent travellers have an innate senese of where their time zone is on that list. A "custom label" is also provided, but this one is shorter than the windows option. 
