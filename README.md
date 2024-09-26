@@ -1,8 +1,6 @@
 There are ~600 IANA time zones, many are not meaningfuly distinct for current and future dates. [Time-zone boundary builder](https://github.com/evansiroky/timezone-boundary-builder) maintains an up to date map of the ~69 time zones that are mapped to a current geographical area. 
 
-But most computers in the world use [IANA names](https://github.com/eggert/tz), and for many computers the IANA name is one of more than 600 locations that represent historical differences in time zones across different regions. 
-
-When creating user interfaces that deal only with the future, it would be handy to be able to map the full ~600 list to the much shorter list so that it's easier for users to pick their time zone in a drop-down. 
+But most computers in the world use [IANA names](https://github.com/eggert/tz), and keep using the superseeded longer list to maintain backwards compatibility for past dates. When creating user interfaces that deal only with the future, it would be handy to be able to map the full ~600 list to the much shorter list so that it's easier for users to pick their time zone in a drop-down menu. 
 
 [Download This CSV file](https://github.com/jonathananolan/timezones/raw/refs/heads/main/output/iana_past_current_lookup_with_windows_names.csv) to access a mapping of:
 * All ~600 IANA time zones to the 62 'current' iana time zones,
